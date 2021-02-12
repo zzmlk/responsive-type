@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "EuclidCircluarA-Regular-WebTrial";
+    src: url("../fonts/EuclidCircularA-Regular-WebTrial.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "EuclidCircluarA-Bold-WebTrial";
+    src: url("../fonts/EuclidCircularA-Bold-WebTrial.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.example {
+    max-width: 70%;
+}
+
+body {
+    padding: 5% 10%;
+    line-height: 1.4;
+    background-color: black;
+}
+
+.example h1 {
+    font-weight: normal;
+    font-size: 7vw;
+    font-family: "EuclidCircluarA-Bold-WebTrial";
+    color: white;
+}
+
+.intro {
+    font-size: 3vw;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: white;
+    line-height: 4vw;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: -0.05em;
+}
+
+p {
+    font-size: 2vw;
+    font-family: "EuclidCircluarA-Regular-WebTrial";
+    font-weight: 2rem;
+    font-style: normal;
+    color: white;
+    direction: ltr;
+    letter-spacing: 0.1em;
+    line-height: 3vw;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0em;
+    text-shadow: grey;
+    text-transform: none;
+    text-overflow: clip;
+    word-spacing: auto;
+}
+
+@media screen and (max-width: 479px) {
+    body {
+        padding: 5% 10%;
+        line-height: 1.4;
+        background-color: white;
+    }
+    .example {
+        max-width: 100%;
+    }
+    .intro {
+        font-size: 3.5vw;
+        color: black;
+    }
+    .example h1 {
+        font-size: 8vw;
+        color: black;
+    }
+    p {
+        letter-spacing: 0.05em;
+        font-size: 3vw;
+        line-height: 4vw;
+        color: black;
+    }
+}
